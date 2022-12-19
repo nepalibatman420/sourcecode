@@ -1,0 +1,230 @@
+
+     
+    
+     .messedtext{
+       
+    
+ 
+  
+
+
+     }
+
+    #img1 {
+      display: inline-block;
+      border: 5px solid #ddd;
+      border-radius: 25px;
+      padding: 5px;
+      width: 150px;
+      border-radius: 8px;
+    
+
+    }
+    #img2 {
+      display: inline-block;
+      border: 5px solid #ddd;
+      border-radius: 25px;
+      padding: 5px;
+      width: 65px;
+      border-radius: 8px;
+    }
+    #img33{
+      height: 200px;
+      overflow: hidden;
+      border-radius: 8px;
+      border: 5px solid #ddd;
+      padding: 5px;
+      
+
+    }
+
+    img : hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+
+    #b1 {
+      color: white;
+      /*margin-bottom:500px;*/
+      background: #1d92f2;
+      border-radius: 20px;
+      height: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      /*to change the cursor on hovering to login button */
+      box-shadow: 10px 10px 8px #cbced1, -10px 10px 8px #fbfbfa;
+      transition: 0.5s;
+    }
+    #bod2 {
+                background: #FEAC5E;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                   
+
+                    }
+    button : hover {
+      box-shadow: none;
+    }
+
+    #cardx2 {
+                  background:#ecf0f3;
+                  padding:12px;
+                  padding-left:10px;
+                  height:75px;
+                  font-size:16px;
+                  border-radius:15px;
+                  box-shadow:inset 10px 10px 12px #cbced1, inset -10px -10px 12px #fbfbfa; /*inset le shadow bhitra tira lagdinxa*/
+          }
+          #cardx3 {
+                  background:#ecf0f3;
+                  padding:12px;
+                  padding-left:10px;
+                  height:relative;
+                  font-size:16px;
+                  border-radius:15px;
+                  box-shadow: 10px 10px 12px #cbced1, inset -10px -10px 12px #fbfbfa; /*inset le shadow bhitra tira lagdinxa*/
+          }
+          #cardx3p {
+            background:#ecf0f3;
+            padding:12px;
+            padding-left:10px;
+            height:relative;
+            font-size:16px;
+            border-radius:15px;
+            box-shadow: 10px 10px 12px #cbced1, inset -10px -10px 12px #fbfbfa; /*inset le shadow bhitra tira lagdinxa*/
+            cursor: pointer;
+            transition: all 0.25s;
+    }
+    #cardx3p:hover{
+      transform: scale(1.2);
+      
+
+    }
+          #cardx3x {
+                  background:#ecf0f3;
+                  padding:12px;
+                  padding-left:200px;
+                  padding-right:200px;
+                  height:relative;
+                  
+                  align-self: center;
+                  font-size:16px;
+                  border-radius:69px;
+                  box-shadow: inset 10px 10px 12px #cbced1, inset -10px -10px 12px #fbfbfa; /*inset le shadow bhitra tira lagdinxa*/
+                  opacity: 0.5;
+          }
+   
+
+    #cardx32 {
+      background: #40cca9;
+      padding: 7px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      height: relative;
+      font-size: 16px;
+      border-radius: 15px;
+      box-shadow: 10px 10px 12px #cbced1, inset -10px -10px 12px #fbfbfa;
+      /*inset le shadow bhitra tira lagdinxa*/
+    }
+
+    #cardx {
+      background: #ecf0f3;
+      padding: 7px;
+      padding-left: 10px;
+      height: relative;
+      font-size: 16px;
+      border-radius: 15px;
+      box-shadow: 5px 10px 12px #cbced1, inset -5px -10px 12px #fbfbfa;
+      /*inset le shadow bhitra tira lagdinxa*/
+    }
+
+    .footerOne {
+      background: #ecf0f3;
+      padding: 12px;
+      padding-left: 10px;
+      height: relative;
+      font-size: 25px;
+      border-radius: 5px;
+      box-shadow: inset 10px 10px 12px #cbced1, inset -10px -10px 12px #fbfbfa;
+      /*inset le shadow bhitra tira lagdinxa*/
+    }
+
+    #roottabs {
+      display: inline-block;
+      cursor: pointer;
+    }
+
+
+
+
+
+
+
+    .container {
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: rgb(11, 220, 182);
+      margin: 6px 0;
+      size: relative;
+      transition: 0.4s;
+    }
+
+    /* Rotate first bar */
+    .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+      transform: rotate(-45deg) translate(-9px, 6px);
+    }
+
+    /* Fade out the second bar */
+    .change .bar2 {
+      opacity: 0;
+    }
+
+    /* Rotate last bar */
+    .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-6px, -6px);
+      transform: rotate(45deg) translate(-8px, -8px);
+    }
+    #pillsBB {
+      border: none;
+      background-color: inherit;
+    background-repeat: no-repeat;
+      padding: 13px 13px;
+  /*padding: 14px 28px;*/
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block ;
+  
+  transition: all 0.25s;
+    }
+    #pillsBB:hover {background: #eee;
+      transform: scale(1.8);
+    
+    }
+
+
+
+                #bgHome{
+                  background: rgb(34,195,167);
+                  background: linear-gradient(0deg, rgba(34,195,167,1) 7%, rgba(207,219,112,1) 27%, rgba(103,225,134,1) 46%, rgba(74,146,239,1) 67%, rgba(61,196,245,1) 80%, rgba(45,253,252,1) 88%);
+                  background-size: cover;
+                  background-color: #cccccc;
+                  background-repeat: no-repeat;
+
+                  height: 500px;
+                  opacity: 0.7;
+                 border-radius:69px;
+
+                }
+                #homecard{
+                  background: rgb(227,238,174);
+                  background: radial-gradient(circle, rgba(227,238,174,1) 23%, rgba(219,238,174,1) 43%, rgba(173,236,163,1) 55%, rgba(192,233,148,1) 71%);
+                }
