@@ -3,8 +3,16 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hello, World!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="banana.js"></script>
+  <link rel="stylesheet" href="banana2.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+          <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+          <script src="index.js">
+          </script>
 
   <style>
     .header {
@@ -26,34 +34,61 @@
     }
   </style>
 
-</head>
-<body>
-<div class="w3-center">
-<div class="w3-card">
-	  <div id="root" class="w3-card" ></div>
-	  <div id="root1" class="w3-card"></div>
-</div>
 
-</div>
-
-
-  <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
-  <script src="index.js">
-  </script>
-	bebe booboo
-
-
-
-
-</body>
 <script>
   $(document).ready(function() {
-    // Add event handler for header
-    $('.header').click(function() {
-      alert('You clicked the header!');
-    });
+  $(".expand-trigger").click(function() {
+    $(this).next().slideToggle();
   });
-</script>
+});
+  </script>
+
+</head>
+<body>
+<div class="container-fluid">
+
+        
+
+
+
+
+          
+        <div class="w3-center">
+        <div class="w3-container">
+          <div class="w3-row">
+            <div class="w3-col l3 m4 s6">
+              <div class="header w3-container w3-dark-grey">
+                          
+                  <button id="root" class="w3-Button expand-trigger cardx3p" ></button>
+                  <div style="display:none;"> 
+                     <button id="root1" class="w3-Button cardx3p"></buttons>
+                    <button class=" w3-button cardx3p" > Ninja desu</buttons>
+
+                  </div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="w3-row">
+            <div class="w3-col l3 m4 s6">
+              <div class="content w3-container">
+                <p>Content goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-row">
+            <div class="w3-col l3 m4 s6">
+              <div class="footer w3-container w3-dark-grey">
+                <p class="w3-card">Footer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+</div>
+</body>
+
 </html>
 
