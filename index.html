@@ -12,12 +12,25 @@
   <link rel="stylesheet" href="banana2.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+ 
           <script src="index.js">
           </script>
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+          <style>
+          body,h1 {font-family: "Raleway", sans-serif}
+          body, html {height: 100%}
+          .bgimg {
+            background-image: url('/w3images/forestbridge.jpg');
+            min-height: 100%;
+            background-position: center;
+            background-size: cover;
+          }
+          </style>
 
   <style>
     .header {
@@ -54,52 +67,79 @@
   </script>
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body >
+  
+  <div class="w3-main w3-mobile	">
   
                           
                   
-                <nav class="navbar navbar-inverse header" data-spy="affix" data-offset-top="197">
-                  <ul class="nav nav-pills nav-stacked " data-spy="affix" data-offset-top="205" >
-                    <button type="button" class="expand-trigger btn btn-primary btn-xs ">Menu>>></button>
-                    <div style="display: none;">
-                      <button type="button" class="btn btn-success">Blog</button>
-                      <button type="button" class="btn btn-success">Stories</button>
-                      <button type="button" class="btn btn-success">Food Review</button>
-                      <button type="button" class="btn btn-success">Tech Talk</button>
-                      <button type="button" class="btn btn-success">Science ?</button>
-                      <button type="button" class="btn btn-success">Philosophy lol</button>
-                    </div>
+                
 
-                  </ul>
-                  
+                  <nav class="navbar w3-top w3-white w3-border-color w3-hide-small w3-mobile	 w3-card-4">
+                    <div class="w3-bar w3-mobile">
+                      
+                      <a href="#" class="w3-bar-item w3-button w3-green"><i class="fa fa-home"></i></a>
+                      
+                        <button  class="expand-trigger w3-bar-item w3-button">></button>
+                        <div style="display: none;">
+                          
+                          <a href="#" class="w3-bar-item w3-button  w3-khaki"><i class="fa fa-globe"></i></a>
+
+                          <a  class="w3-button w3-khaki w3-bar-item  w3-mobile w3-hover-green">Stories</a>
+                      <a  class="w3-button w3-khaki w3-bar-item  w3-mobile w3-hover-green">Stories</a>
+                      <a  class="w3-button w3-khaki w3-bar-item  w3-mobile w3-hover-green">Stories</a>
+                      <a  class="w3-button w3-khaki w3-bar-item  w3-mobile w3-hover-green">Stories</a>
+
+
+                      </div>
+                      
+                    </div>
                   </nav>
-<div class="container-fluid content" style="height: auto;">
-          
-          <div class="row">
-            <div id="root" class="col-sm-4">.col-sm-4</div>
-             <div id="root1" class="col-sm-8">.col-sm-8</div>
+
+
+                  
+                  
+                  
+
+<div class="w3-container w3-main content w3-mobile	"  style="max-width:100%;height:auto;" >
+  
+  <hr class="w3-border-white"><hr class="w3-border-white"><hr class="w3-border-white">
+  
+  <hr class="w3-border-blue">
+
+
+
+          <div class="w3-row">
+              <div id="root" class="w3-col s3  w3-center w3-button">.col-sm-4</div>
+             <div id="root1" class="w3-col s3  w3-center w3-button">.col-sm-8</div>
+             <div id="" class="w3-col s3  w3-center w3-button">.col-sm-8</div>
+             <div id="" class="w3-col s3  w3-center w3-button">.col-sm-8</div>
+             
           </div>
+
+
+
           <hr class="w3-border-red">
-          <div class="row" style="align-self: center;">
-            <div class="col-sm-4"><img class="img12" src="pp.png" alt=""></div>
-              <div class="col-sm-4">
+          <div class="w3-row">
+            <div  class="w3-col s4  w3-center"><img class="img12" src="pp.png" alt=""></div>
+              <div class="w3-col s4  w3-center">
                 <div class="btn-group btn-group-justified">
-                  <a href="#" class="btn btn-primary">BEBE</a>
-                  <a href="#" class="btn btn-primary">BOBO</a>
-                  <a href="#" class="btn btn-primary">PEPE</a>
+                  <a href="#" class="w3-button w3-khaki">BEBE</a>
+                  <a href="#" class="w3-button w3-khaki">BOBO</a>
+                  <a href="#" class="w3-button w3-khaki">PEPE</a>
                 </div>
               </div>
-              <div class="col-sm-4"><img class="img12" src="pp.png" alt=""></div>
+              <div class="w3-col s4  w3-center"><img class="img12" src="pp.png" alt=""></div>
             
             
 
           </div>
           <hr class="w3-border-red">
-          <div class="row">
-            <div id="" class="col-sm-4">
+          <div class="w3-cell-row">
+            <div id="" class="w3-col s3  w3-center">
               <img class="img12" src="pp.png" alt="">
             </div>
-            <div id="" class="col-sm-8"><p>
+            <div id="" class="w3-col s9  w3-center"><p>
               <h1>
                 Article 1
               </h1>
@@ -120,9 +160,9 @@
           <hr class="w3-border-red">
 
 
-          <div class="row">
-            <div id="root" class="col-sm-4">.col-sm-4</div>
-             <div id="root1" class="col-sm-8">.col-sm-8</div>
+          <div class="w3-cell-row cardx3x">
+            <div id="root" class="w3-container  w3-cell cardx3"></div>
+             <div id="root1" class="w3-container  w3-cell cardx3"></div>
           </div>
          
         
@@ -132,16 +172,40 @@
 </div>
 
 
+
+
+<div class="w3-row cardx3p ">
+  <div class="w3-cell">
+    <img src="img_avatar.jpg">
+  </div>
+  <div class="w3-cell w3-container ">
+    <h3>Something?>>></h3>
+      <p>Some notes?</p>
+  </div>
+</div>
+<hr class="w3-border-white"><hr class="w3-border-white"><hr class="w3-border-white">
+<hr class="w3-border-white"><hr class="w3-border-white"><hr class="w3-border-white">
+
+</div>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
 
-<footer>
-  <div class="container-fluid footer">
-    Footsie
-    </div>
+
+
+
+
+</body>
+<footer class="w3-container w3-padding-2 w3-center w3-bottom footer">
+  <p>Copyright 2022 My Website</p>
+  <a href="#" class="w3-button w3-small w3-black w3-margin-right"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-button w3-small w3-black w3-margin-right"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-button w3-small w3-black w3-margin-right"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-button w3-small w3-black w3-margin-right"><i class="fa fa-linkedin"></i></a>
 </footer>
+
+
 </html>
 
