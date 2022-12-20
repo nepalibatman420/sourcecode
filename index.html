@@ -21,7 +21,7 @@
   <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
  
-          <script src="index.js">
+          <script src="index.js" type="text/babel">
           </script>
           <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -64,6 +64,7 @@
       color:#588157!important;background-color:#335c67!important;
       padding: 10px;
       text-align: center;
+      padding-bottom: 10px;
     }
     .foot2 {
       color:#fff3b0!important;background-color:#540b0e!important;
@@ -121,10 +122,18 @@
 
 
           <div class="w3-row w3-animate-opacity" id="element2" style="display: none;">
-              <div id="root" class="w3-col s3  w3-center w3-button">.col-sm-4</div>
-             <div id="root1" class="w3-col s3  w3-center w3-button">.col-sm-8</div>
-             <div id="" class="w3-col s3  w3-center w3-button">.col-sm-8</div>
-             <div id="" class="w3-col s3  w3-center w3-button">.col-sm-8</div>
+            <div class="w3-quarter  w3-center" >
+              <img class="w3-card-4 w3-center borderbutt" src="g11.png" alt="Image?"  id="img13" >
+            </div>
+            <div class="w3-quarter  w3-center" >
+              <img class="w3-card-4 w3-center borderbutt" src="g11.png" alt="Image?"  id="img13" >
+            </div>
+            <div class="w3-quarter  w3-center" >
+              <img class="w3-card-4 w3-center borderbutt" src="g11.png" alt="Image?"  id="img13" >
+            </div>
+            <div class="w3-quarter  w3-center" >
+              <img class="w3-card-4 w3-center borderbutt" src="g11.png" alt="Image?"  id="img13" >
+            </div>
              
           </div>
 
@@ -134,31 +143,31 @@
           <div class="w3-cell-row city w3-animate-opacity"  id="element3" style="display: none;">
 
 
-            <div class="w3-col s3  w3-center">
-              <img class="img2 w3-border" src="pp.png" alt="">
+            <div class="w3-quarter  w3-center " >
+              <img class="w3-card-4 w3-center borderbutt" src="g11.png" alt="Image?"  id="img13" >
             </div>
-
-              <div class="w3-col s3  w3-center">
-                <strong>
-                  Somethings in the way lol!
-                </strong>
-              </div>
-
-              <div class="w3-col s3  w3-center">
-              <img class="img2 w3-border" src="pp.png" alt="">
-
+            <div class="w3-quarter  w3-center " >
+              <strong > Something is</strong>
+            </div>
+            <div class="w3-quarter  w3-center" >
+              <strong> In the way lol</strong>
+            </div>
+            <div class="w3-quarter  w3-center" >
+              <img class="w3-card-4 w3-center borderbutt" src="g11.png" alt="Image?"  id="img13" >
             </div>
             
             
 
           </div>
           
-          <div class="w3-cell-row city w3-animate-opacity"  id="element1" style="display: none;">
+          <div class="w3-row  w3-animate-opacity"  id="element1" >
             
+            <div class="w3-quarter  w3-center" >
+              <img class="w3-card-4 w3-center borderbutt" src="g11.png" alt="Image?"  id="img13" >
+            </div>
+              
             
-              <img class="w3-col s3  w3-center" src="g11.png" alt="Image?" >
-            
-            <div  class="w3-col s9  w3-center"><p>
+            <div  class="w3-threequarter	w3-card-4" style="padding: 5px;"><p>
               <h1>
                 <strong>Space Pirates &#x1f3f4; &#x200d; &#x2620; &#xfe0f;
                 </strong>
@@ -190,12 +199,14 @@
          
         
                 <div class="w3-row cardx3p w3-animate-opacity w3-center" id="element4" style="display: none;">
-                  <div class="w3-col s3  w3-center" >
-                    <img src="g11.png">
+                  <div class="w3-quarter  w3-center" >
+                    <img class="w3-card-4 w3-center" src="g11.png" alt="Image?"  id="img13" >
                   </div>
-                  <div class="w3-col s9  w3-center">
-                    <h3>Something?>>></h3>
-                    <p>Some notes?</p>
+                  <div class="w3-threequarter	 w3-center">
+                    <h3>Something</h3>
+                    <p> The CDN react text will appear below</p>
+                    <p id="root"></p>
+                    <p id="root"></p>
                   </div>
                 </div>
 <hr class="w3-border-red" >
@@ -219,8 +230,8 @@
 
 
 </body>
-<footer class="w3-bar  w3-mobile ">
-  <div class="  footer footcontainer  w3-bottom w3-animate-opacity" >
+<footer class="w3-bottom">
+  <div class="w3-bar  footer footcontainer  w3-animate-opacity" >
                     
                     
     <button  class="w3-btn w3-slim foot2 w3-center borderbutt toggleButton" data-target="#element1"><i class="bi bi-house-door-fill"></i>Home</button>
@@ -230,11 +241,12 @@
                     </button>
 
                     <button class="w3-btn w3-slim foot2 w3-center borderbutt toggleButton" data-target="#element3">
-                      <i class="bi bi-film"></i> Videos?
+                      <i class="bi bi-film"></i> 
                     </button>
 
                     <button class="w3-btn w3-slim foot2 w3-center borderbutt toggleButton" data-target="#element4">
-                        Questions
+                      <i class="bi bi-emoji-smile-upside-down"></i>
+                        Hello
                     </button>
                     
 
@@ -263,6 +275,15 @@
 
 
 <style>
+  #img13{
+      height: 200px;
+      overflow: hidden;
+      border-radius: 8px;
+      border: 5px solid #ddd;
+      padding: 5px;
+      
+
+    }
 .borderbutt{
   
   
@@ -277,10 +298,11 @@
 }
 .footcontainer{
   padding:12px;
-                  padding-left:10px;
+                  
                   height:75px;
                   font-size:16px;
                   border-radius:15px;
+                  padding-bottom: 20px;
                   
   
 }
