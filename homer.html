@@ -1,0 +1,354 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Home</title>
+  
+  
+  
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="banana.js"></script>
+    <link rel="stylesheet" href="banana2.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+  
+  <style>
+    
+    .btnr {
+      width: 100px;
+      height: 50px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.5s;
+    }
+    .btnr:hover {
+    transform: scale(1.5);
+    }
+    </style>
+    <style>
+      .mySlides {display:none;}
+      </style>
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+  <script>
+  $(document).ready(function() {
+  $(".expand-trigger").click(function() {
+    $(this).next().slideToggle();
+  });
+});
+  </script>
+        
+</head>
+
+
+
+
+
+
+<body>
+
+  <div id="bod2" class="container-fluid"><div class="w3-bar w3-border w3-light-grey">
+
+
+
+  
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;"><div class="container-fluid">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" id="bb1">
+              <a class="nav-link active change" id="pills-home-tab" data-toggle="pill" href="#" role="tab" aria-controls="pills-home" aria-selected="true" onclick="myFunction(this)">
+                <!-- The uncollapsed lines here -->
+                <div class="bar1"></div>
+                <div class="bar2"></div>            
+                <div class="bar3"></div>
+              </a>
+        </li>
+        
+        <li class="nav-item" id="l1" style="">
+          <h3>
+          <button class="container-fluid" id="pillsBB"><i class="fa fa-home" style="font-size:24px"></i></button>
+        </h3>
+        </li>
+        <li class="nav-item" id="l2" style="">
+          <h3>
+            <button class="nav-link" id="pillsBB"><i class="fa fa-image" style="font-size:24px"></i></button>
+          </h3>
+        </li>
+        <li class="nav-item" id="l3" style="">
+          <h3>
+            <button class="nav-link" id="pillsBB"><span class="glyphicon glyphicon-book"></span>
+            </button>
+          </h3>
+        </li>
+        <li class="nav-item" id="l4" style="">
+          <h3>
+            <button class="nav-link" id="pillsBB"><span class="glyphicon glyphicon-earphone"></span>
+            </button>
+          </h3>
+        </li>
+      
+      </ul>
+    </div>
+    </nav></div>
+  
+
+
+    <br>
+                          <div class="card">
+                            <div class="container-fluid" id="blog1" style="display: none;">
+                              <div class="container-fluid" id="blog5">
+                                <div class="w3-center" id="cardx"><div class="w3-center">
+                                  <h1 class="w3-center">Gallery</h1><br>
+              
+                                  <div class="container-fluid" id="blog5">
+                                    <!-- Example row of columns -->
+                                        <div class="col-md-4"> </div>
+
+                                                              <div class="row" id="cardx3"><div class="col-md-4"> </div><div class="col-md-4"> <div class="w3-center" id="cardx3p">
+                                                              
+                                 E!
+                                  </div>
+                                  <div class="col-md-4"> </div>
+                                  
+
+                                 
+                                </div><br>
+                              </div></div>
+                              </div><br><br><br>
+                                    <div class="row">
+                                      <div class="col-md-4"><div id="cardx3">
+                                        <h2>Basantapur Durbar Square</h2><div class="w3-center">
+                                        <img class="w3-center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Basantapurr6.JPG/640px-Basantapurr6.JPG" id="img1">
+                                      </div>
+                                        <p>
+                                          Basantapur before 2013 Earthquake
+                                        </p>
+                                        <p><a class="btn btn-default" href="https://www.sharal.com.np/#" role="button">View details »</a></p>
+                                      </div></div>
+                                      <div class="col-md-4"><div id="cardx3">
+                                        <h2>Bhaktapur Durbar Square</h2><div class="w3-center">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Bhaktapurr3.JPG/576px-Bhaktapurr3.JPG" id="img1">
+                                        </div>
+                                        <p>
+                                          Bhaktapur durbar Square on wikipedia
+                                        </p>
+                                        <p><a class="btn btn-default" href="https://en.wikipedia.org/wiki/Bhaktapur_Durbar_Square" role="button">More on Wikimedia »</a></p>
+                                    </div></div>
+                                      <div class="col-md-4"><div id="cardx3">
+                                        <h2>Hetauda Aerial View</h2><div class="w3-center">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Hetauda_001.JPG/640px-Hetauda_001.JPG" id="img1" class="w3-center">
+                                        </div><p>
+                                         Hetauda City Aerial View i captured during the hike to Manakamana Temple Of Hetauda
+                                        </p>
+                                        <p><a class="btn btn-default" href="https://www.sharal.com.np/#" role="button">View details »</a></p>
+                                      </div></div>
+                                    </div>
+                                    <br><hr>
+                                    <div class="row">
+                                      <h3 id="cardx2" class="w3-center">
+                                      Some 3D Stuff i made</h3><br><br>
+                                      <div class="col-md-4"><div id="cardx3p" class="w3-center">
+                                        <h2>Car Render</h2><div class="w3-center">
+                                        <img src="">
+                                      </div>
+                                        <p>
+                                         Classic van type cartoonish car
+                                        </p>
+                                        <p><a class="btn btn-default" href="https://www.sharal.com.np/#" role="button">View details »</a></p>
+                                      </div></div>
+                                      <div class="col-md-4">
+                                        <div id="cardx3p">
+                                        <h2>Low Poly Car</h2><div class="w3-center">
+                                        <img src="https://pbs.twimg.com/media/ExFwnI7VkAQYbKY?format=jpg&amp;name=900x900" id="img1" class="w3-center">
+                                       
+                                        </div>
+                                        <p>
+                                          Low poly style car
+                                        </p>
+                                       
+                                    </div>
+                                  </div>
+                                     <div class="col-md-4"><div id="cardx3p">
+                                        <h2>Boat</h2>
+                                        <div class="w3-center">
+                                          <img src="https://pbs.twimg.com/media/FVR25wEaIAAfuLC?format=jpg&amp;name=small" id="img1" class="w3-center">
+                                      </div>
+                                        <p>
+                                         Boat animation
+                                        </p>
+                                        <p><a class="btn btn-default" href="https://www.sharal.com.np/#" role="button">View details »</a></p>
+                                      </div></div><br>
+                                    </div>
+                                  </div>        
+              
+              
+                                   
+                                </div></div>
+                              </div>
+                            </div>
+
+                            <div class="container-fluid" id="blog2" style="display: none;">
+                              <div id="cardx" class="w3-center">
+                                <h2>
+                                 Blog!
+                                </h2><br>
+                               <div class="jumbotron-fluid">
+      <div class="container-fluid">
+          <div class="w3-center">
+            <!-- Example row of columns -->
+            <div class="row"><hr>
+              <div class="col-md-4"></div><div class="col-md-4"><div id="cardx3p">
+                <h2 class="expand-trigger">Delta Quadrant Remains Neutral</h2>
+                <p style="display: none;">
+                  The reptilians of deta quadrant have decided to remain neutralthroughout the great galactic war
+                </p>
+                <p><a class="btn btn-default" href="#" role="button">Continue Reading »</a></p>
+              </div></div></div><div class="row"><hr><br>
+
+              <div class="col-md-4"></div><div class="col-md-4"><div id="cardx3p">
+                <h2 class="expand-trigger">Martians deploy troops around the atmosphere</h2>
+                <p style="display: none;">
+                  Martians are taking precautions and deploying marian defences durring the war.
+                </p>
+                <p><a class="btn btn-default" href="#" role="button">Continue Reading »</a></p>
+            </div></div></div><div class="row"><hr><br>
+
+              <div class="col-md-4"></div><div class="col-md-4"><div id="cardx3p">
+                <h2 class="expand-trigger">Earth united after a long war</h2>
+                <p style="display: none;">
+                  One good thing to comeout of the galactic war was a surprise as the earth nations reunite against a common threat.
+                </p>
+                <p><a class="btn btn-default" href="#" role="button">Continue Reading »</a></p>
+              </div></div></div>
+
+            </div>
+          </div>
+    </div>
+  </div>
+
+    <br>
+                              </div>
+                            
+
+                            <div class="jumbotron-fluid" id="blog3" style="display: none;">
+                              <div id="cardx" class="w3-center">
+                                <h3 id="cardx3x">
+                                 <strong>
+                                  Contact
+                                 </strong>
+                                </h3>
+                                <p>
+                                  </p><h4 id="cardx">
+                                      Youtube: <a href="https://www.youtube.com/c/Sharal3D"><button class="danger"><img id="img1" src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="YTLOGO"></button></a>
+                                  </h4>
+                                <p></p>
+                                
+                                <br>
+                                <iframe class="container-fluid" src="https://www.youtube.com/embed/wmKngaPDNbs" title="Sci-Fi HULL 24 fps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                <hr>
+                                <p id="cardx">
+                                  </p><h4>
+                                   Instagram: <a href="https://www.instagram.com/sharal3d/"><button class="danger"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVfruFA8D6ZQmT2yBG9tEEljX_33hgVDyZXwAvsmRlK7x_wt10jt5bRVx5KDRKGe66gI8&amp;usqp=CAU" alt="INStagramicon" id="img1"></button></a>
+                                  </h4>
+                                <p></p>
+                               
+                              </div>
+                            </div>
+                            <div class="container-fluid" id="blog0" style="">
+                              <div id="cardx3" class="container-fluid">
+                                 
+                                  <br><hr>
+                                    <div class="row"><hr><hr>
+                                      
+                                      <div class="col-md-4"  id="cardx3p"><hr><div class="w3-center">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Fewa_tal_002.jpg/640px-Fewa_tal_002.jpg" alt="CHUNGUS" id="img1" class="expand-trigger">
+                                      </div><br>
+                                      </div><div class="col-md-4"><hr><hr>
+                                        <div id="cardx3p">
+                                          <h2 class="expand-trigger">>Delta Quadrant Remains Neutral</h2>
+                                          <p style="display: none;">
+                                          The reptilians of deta quadrant have decided to remain neutralthroughout the great galactic war
+                                        </p>
+                                        <p><a class="btn btn-default" href="#" role="button">Continue Reading »</a></p>
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4"><hr><hr>
+                                      <div id="cardx3p">
+                                      <h2 class="expand-trigger">>The Future of coding</h2>
+                                      <p style="display: none;">
+                                       The new openai chat  can create many programs if described throughly. 
+                                      </p>
+                                      <p><a class="btn btn-default" href="#" role="button">Continue Reading »</a></p>
+                                    
+                                    </div>
+                                  </div>
+                                    
+                                    </div>
+                                    <br>
+                                 <br>
+                                 <br>
+                                    
+
+
+
+                                  <br>
+                                  
+                              </div>
+                             
+                                
+                              
+                              </div>
+                            
+                          
+                        
+    <br><br><br>
+
+    <div class="container-fluid">
+      <div id="cardx3" class="w3-center">
+        <h5>
+          <strong>
+            <a href="mailto: [sadmadd2@gmail.com]?subject= &amp;body= "> Email me! </a>
+          </strong>
+          @Sharal3D
+        </h5>
+      </div>
+
+    </div>
+    <br> <br> <br>
+   
+    <footer>
+
+
+
+
+    </footer>
+    <br>
+  
+
+
+
+
+
+<!-- Cloudflare Pages Analytics --><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;3a71691329ca49c686e3ec70ceecc5a8&quot;}"></script><!-- Cloudflare Pages Analytics --></body></html>
