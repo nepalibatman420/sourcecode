@@ -1,0 +1,164 @@
+ /* Define variables for gradient colors and directions */
+ :root {
+     --head-start-color: #5f0f40;
+     --head-end-color: #0f4c5c;
+     --head-end-color2: #fb8b24;
+     --head-gradient-direction: to right;
+     --content-start-color: lightgray;
+     --content-end-color: gray;
+     --content-gradient-direction: to bottom;
+     --toe-start-color: #e7c6ff;
+     --toe-end-color: #5f0f40;
+     --toe-gradient-direction: to left;
+     --nice-card-start-color: #fff3b0;
+     --nice-card-end-color: #98f5e1;
+     --nice-card-gradient-direction: 360deg;
+     --border-radiuscard: 8px 0 0 8px;
+     --content-gradient-third: #98f5e1;
+ }
+
+ /* Define classes with gradient backgrounds */
+ .head {
+     background: linear-gradient(var(--head-gradient-direction), var(--head-start-color), var(--head-end-color), var(--head-end-color2));
+     border-radius: 0 0 8px 8px;
+     align-items: center;
+ }
+
+ .content {
+     display: flex;
+     height: auto;
+     justify-content: center;
+     background: linear-gradient(var(--content-gradient-direction), var(--content-start-color), var(--content-end-color), var(--content-gradient-third));
+     border-radius: 0 0 8px 8px;
+     
+
+
+
+
+
+ }
+
+ .toe {
+    display: flex;
+    justify-content: center;
+     background: linear-gradient(var(--toe-gradient-direction), var(--toe-start-color), var(--toe-end-color), var(--head-end-color2));
+     position: fixed;
+     color: bisque;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     
+     
+     
+
+     padding: 8px;
+ }
+
+ .nice-card {
+     background: linear-gradient(var(--nice-card-gradient-direction), var(--nice-card-start-color), var(--nice-card-end-color));
+     color: #540b0e;
+     border-radius: var(--border-radiuscard);
+     align-items: center;
+     justify-content: space-between;
+     display: flex;
+     padding: 8px;
+
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: center;
+     top: 0;
+     z-index: 1;
+     position: sticky;
+     left: 0;
+     width: 100%;
+     padding: 20px;
+     border-radius: 0 0 8px 8px;
+ }
+
+ .navbar ul {
+     display: flex;
+     justify-content: center;
+     margin: 0;
+     padding: 5px;
+     list-style: none;
+     text-align: center;
+
+
+ }
+
+ .navbar li {
+
+     margin: 0 10px;
+     border-radius: 0 0 8px 8px;
+    background-color: bisque;;
+    opacity: 85%;
+     padding: 10px 10px;
+     box-shadow: 0 0 3px #cbced1, -1px -1px 3px #fbfbfa;
+     /*inset le shadow bhitra tira lagdinxa*/
+
+
+     transition: all 0.25s;
+
+ }
+
+ .navbar a {
+     color: white;
+     text-decoration: none;
+     font-size: 18px;
+ }
+
+ .navbar li:hover {
+
+
+     box-shadow: inset 0 0 3px #cbced1, inset -1px -1px 3px #fbfbfa;
+     /*inset le shadow bhitra tira lagdinxa*/
+     opacity: 150%;
+
+
+
+
+ }
+
+ .images-in-pages img {
+     max-width: 50%;
+     height: auto;
+     object-fit: cover;
+ }
+
+ @media (max-width: 600px) {
+     nav ul {
+         flex-direction: column;
+     }
+ }
+
+ .centering {
+    justify-content: center;
+     width: 100%;
+     /* Set the width of the element */
+     margin: 0 auto;
+     /* Center the element horizontally */
+ }
+ .nav-items {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-items li {
+    margin: 0 10px;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .menu-toggle {
+    display: none;
+  }
+  .logoz {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+  }
