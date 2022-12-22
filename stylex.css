@@ -1,0 +1,110 @@
+.header {
+      color:#264653;
+      background-color:#74c69d;
+      padding: 15px;
+      border-radius:8px;
+      text-align: center;
+      box-shadow:inset 2px 2px 4px #cbced1, inset -2px -2px 4px #2d6a4f; /*inset le shadow bhitra tira lagdinxa*/
+    }
+    .acts2{
+      background-color:#b7e4c7;
+      border-radius:12px;
+      cursor: pointer;
+      transition: all 1.25s;
+    }.acts2:hover{
+      background-color:#ecf39e;
+      box-shadow:inset 2px 2px 4px #95d5b2, inset -2px -2px 4px #74c69d; /*inset le shadow bhitra tira lagdinxa*/
+    }
+
+    .acts{
+      background-color:#95d5b2;
+      border-radius:12px;
+      cursor: pointer;
+      transition: all 1.25s;
+    }
+    .acts:hover{
+      transform: scale(1.05);
+      box-shadow:inset 2px 2px 4px #ecf39e, inset -2px -2px 4px #74c69d; /*inset le shadow bhitra tira lagdinxa*/
+    }
+    .acts:active{
+      transform: scale(1.05);
+      box-shadow:inset -2px -2px 4px #ecf39e, inset 2px 2px 4px #74c69d; /*inset le shadow bhitra tira lagdinxa*/
+    }
+    .content {
+      background-color:#d8f3dc;
+      padding: 35px;
+      height: auto;
+    }
+    .content2 {
+      background-color:#d8f3dc;
+      padding-top: 25px;
+      padding-bottom: 30px;
+      height: auto;
+    }
+    .footer {
+      color:#588157!important;background-color:#081c15!important;
+      padding: 10px;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    .foot2 {
+      color:#fff3b0!important;background-color:#1b4332!important;
+      padding: 12px;
+      text-align: center;
+      
+      background-color:#bc6c25;
+      
+      
+    }
+
+    .body7 {
+                    margin:0 auto;
+                    padding:0px;
+                    text-align:center;
+                    width:980px;
+    }
+    #img13{
+      height: 200px;
+      overflow: hidden;
+      border-radius: 8px;
+      border: 5px solid #ddd;
+      padding: 5px;
+      
+
+    }
+.borderbutt{
+  
+  
+            padding-left:12px;
+            height:relative;
+            font-size:16px;
+            border-radius:15px;
+            box-shadow:inset -2px -2px 4px #cbced1, inset 2px 2px 4px #eeee00; /*inset le shadow bhitra tira lagdinxa*/
+            cursor: pointer;
+            transition: all 0.25s;
+  
+}
+.footcontainer{
+  padding:12px;
+                  
+                  
+                  font-size:16px;
+                  border-radius:15px;
+                  padding-bottom: 20px;
+                  
+  
+}
+.borderbutt:hover {
+  transform: scale(1.2);
+  box-shadow:inset -2px -2px 4px #1d81e4, inset 2px 2px 4px #095302; /*inset le shadow bhitra tira lagdinxa*/
+
+}
+.footcontainer2{
+  padding:12px;
+                  padding-left:10px;
+                  height:75px;
+                  font-size:16px;
+                  border-radius:15px;
+                  box-shadow:outset 3px 3px 4px #cbced1, inset -3px -3px 4px #fbfbfa; /*inset le shadow bhitra tira lagdinxa*/
+  
+}
