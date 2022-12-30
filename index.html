@@ -28,7 +28,10 @@
 
     <style > 
           .heading{
-          display:: block;;
+          position: sticky;
+          
+          
+          
           
           }
           clearfix::after {
@@ -118,10 +121,19 @@
      /* Center the element horizontally */
  } 
           .main-bod{
-          padding: 70px 0;
-  border: 3px solid green;
-  text-align: center; 
+          padding: 69px 0;
+ 												 border: 1.3px solid green;
+          border-radius: 13px 0 12px 12px;
+          text-align: center; 
           }
+          .bro1{
+          border: 1.2px dashed bisque;
+          }
+          .art1{
+          display : grid ; 
+          border-radius: 13px 0 12px 12px;
+          }
+
         </style>  
     
      
@@ -130,7 +142,7 @@
 </head>
 
 <body >
-    <header class="container-fluid head">
+    <header class="container-fluid heading">
         <nav class="navbar navbar-expand-lg navbar-light mx-auto">
 
 
@@ -141,23 +153,8 @@
             </button>
             <div class="collapse navbar-collapse" id="defaultNavbar1">
 
-            <ul class="navbar-nav mr-auto centering" style:"display:none;">
-                <li class="nav-item coolbutt5 m-1">
-                    <a class="nav-link " href="#">Homie</a>
-                  </li>
-                  <li class="nav-item coolbutt5 m-1">
-                    <a class="nav-link   " href="#">Blog</a>
-                  </li>
-                  <li class="nav-item coolbutt5 m-1">
-                    <a class="nav-link " href="#">Something else</a>
-                  </li>
-                  <li class="nav-item nn coolbutt5 m-1">
-                    <a class="nav-link" href="#">Do not open</a>
-                  </li>
-                  <li class="nav-item nn coolbutt5 m-1">
-                    <a class="nav-link" href="#">what is this</a>
-                  </li>
-            </ul>
+            
+           
              <button class="coolbutt5 ">
             <span>Buttn 🔘  </span>
         </button>
@@ -223,9 +220,9 @@
         </button>
             </div>
         </div>
-        <hr>
-
-        <div class="centering row">
+        
+         <hr class="bro1">
+        <div class="centering row clearfix">
             <div class="col-sm-3">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="pp1.png" alt="Card image cap">
