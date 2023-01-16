@@ -4,301 +4,482 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> HOmie</title>
-    <meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styler.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- Bootstrap CSS -->
-    <script src="scrypt.js">
-
-    </script>
-<!-- CSS only -->
+    <head>
+        <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- Bootstrap CSS -->
+  <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
-
-<!-- Bootstrap JavaScript -->
 <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-
-    <style > 
-          .heading{
-          position: sticky;
-          
-          
-          
-          
-          }
-          clearfix::after {
-  													content: "";
-  													clear: both;
- 													 display: table;
-																}
-          .coolbutt5{
-          box-shadow: 0 5px #3eb489;
-           border-radius: 0 0 5px 7.5px;
-           
-          text-align: center;
-          border-style: outset;
-          cursor: pointer;
-          transition: all 0.25s; 
-           
-          }
-          .coolbutt5:hover {
-          box-shadow: 0 5px #880808 ;
-          }
-          .coolbutt5:active {
-          
-  												box-shadow: 0 1.5px #880808;
-  												transform: translateY(4px);
-          border-style: inset;
-          }
-          .nn {
-            border-radius: 0 0 8px 8px;
-            
-            background-color: bisque;
-            
-            opacity: 85%;
-            padding: 12px;
-            
-            box-shadow: -1px -1px 4px #cbced1, 2px 2px 4px #c00096;
-            /*inset le shadow bhitra tira lagdinxa*/
-            cursor: pointer;
-            transition: all 0.25s;
-        
-        }
-        
-        
-        
-        .nn:hover {
-        
-            border-radius: 0 0 12px 12px;
-            box-shadow:inset -2px -2px 4px #1d81e4, inset 2px 2px 4px #095302; /*inset le shadow bhitra tira lagdinxa*/
-            /*inset le shadow bhitra tira lagdinxa*/
-            opacity: 150%;
-            
-        }
-          .insetter{
-          box-shadow: -1px -1px 4px #cbced1, 2px 2px 4px #c00096;
-            /*inset le shadow bhitra tira lagdinxa*/
-            cursor: pointer;
-          }
-          .insetter:hover {
-        
-            
-            box-shadow:inset -2px -2px 4px #1d81e4, inset 2px 2px 4px #095302; /*inset le shadow bhitra tira lagdinxa*/
-            /*inset le shadow bhitra tira lagdinxa*/
-            opacity: 150%;
-            
-        } 
-          .foo {
-      
-      padding: 10px;
-      text-align: center;
-      padding-bottom: 10px;
-      position: fixed;
-  							left: 0;
- 							 bottom: 0;
- 							 width: 100%;
- 
-  			box-shadow:inset -2px -2px 4px #1d81e4, inset 2px 2px 4px #095302; /*inset le shadow bhitra tira lagdinxa */
-    }
-    .foot2 {
-      color:#fff3b0!important;background-color:#540b0e!important;
-      padding: 8px;
-      text-align: center;
-    }
-           .centering {
-     justify-content: center;
-     width: 100%;
-     /* Set the width of the element */
-     margin: 0 auto;
-     /* Center the element horizontally */
- } 
-          .main-bod{
-          padding: 69px 0;
- 												 border: 1.3px solid green;
-          border-radius: 13px 0 12px 12px;
-          text-align: center; 
-          }
-          .bro1{
-          border: 1.2px dashed bisque;
-          }
-          .art1{
-          display : grid ; 
-          border-radius: 13px 0 12px 12px;
-          }
-
-        </style>  
-    
-     
 
   
-</head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <link rel="stylesheet" href="styler.css">
+        <script src="stylex.js"></script>
+       
+    </head>
+    <body class="container -fluid content2">
+     
+      
+        <header class="conainer header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="navbar-brand">
+                    <img src="pic1.png" alt="Logo" class="imag">
+                    <span>
+                        Website ?
+                    </span>
+                </div>
+                <button class="navbar-toggler expand-trigger" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav justify-content-center hstack gap-2">
+                    <li class="nav-item cool-button ">
+                      <a class="nav-link  toggleButton " href="#"data-target="#element1"><i class="bi bi-house-door-fill"></i>
+                      
+        
+                         Home</a>
+                    </li>
+                    <li class="nav-item cool-button ">
+                      <a class="nav-link  toggleButton" href="#" data-target="#element3">
+                        <i class="bi bi-book-fill"></i> Blog
+                    </a>
+                    </li>
+                    <li class="nav-item cool-button">
+                      <a class="nav-link  toggleButton" href="#"data-target="#element2">
+                        <i class="bi bi-film"></i> Videos
 
-<body >
-    <header class="container-fluid heading">
-        <nav class="navbar navbar-expand-lg navbar-light mx-auto">
-
-
+                      </a>
+                    </li>
+                    <li class="nav-item cool-button">
+                      <a class="nav-link toggleButton" href="#" data-target="#element4">
+                        <i class="bi bi-emoji-smile-upside-down"></i>
+                          Hello
+                    </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              
             
-             
-            <button class="navbar-toggler expand-trigger" type="button" data-toggle="collapse" data-target="#defaultNavbar1" aria-controls="defaultNavbar1" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="defaultNavbar1">
+               
+            
+        </header>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        
+        
+  
+                          
+                  
+              
+    
+        
+          
+       
+        <div class="container">
+          <hr class="my-4 border-top-dotted">
+            <div class="footer">
 
+            </div>                
+
+          <div class="container-fluid"> 
+  
+                    
+                    
+                    
+  
+  
+    
+    
+    <hr class="my-4 border-top-dotted">
+
+  
+  
+  
+            <div class="container" id="element2" style="display: none;"><div class="row">
+  
+                <div class="col-sm-4" >
+                
+                    <iframe class="card"  id="img-fluid img13"   src="https://www.youtube.com/embed/7azhQTXu0nM" title="Something Alien Again #shorts #blender3d" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="col-sm-4" >
+                
+                <iframe class="card"  id="img-fluid img13"  src="https://www.youtube.com/embed/kExvhJzux4w" title="Backrooms Found Footage Space Escape (unedited footage!!!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="col-sm-4" >
+                
+                <iframe class="card"  id="img-fluid img13"  src="https://www.youtube.com/embed/wmKngaPDNbs" title="Sci-Fi HULL 24 fps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+              <div class="col-sm-4" >
+                
+                <iframe class="card"  id="img-fluid  img13" src="https://www.youtube.com/embed/Jxx8dUzlD5o" title="Zanpakutō (斬魄刀, #shorts #blender3d" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            </div>
+  
+  
+  
+            
+            <div class="container"  id="element3" style="display: none;">
+              <div class="row">
+  
+  
+              <div class="col-sm-2" >
+                <img class="img-fluid" src="g11.png" alt="Image?"  id="img13" >
+              </div>
+
+              <div class="col-sm-2" >
+                <strong > Something is</strong>
+              </div>
+              <div class="col-sm-2" >
+                <strong> In the way lol</strong>
+              </div>
+              <div class="col-sm-2" >
+                <img class="img-fluid borderbutt" src="g11.png" alt="Image?"  id="img13" >
+              </div>
+              
+              
+            </div>
+            
+           <div class="row "   >
+                                <div id="" class="card">
+                                  <h3 id="card">
+                                   <strong>
+                                    Wheredo i find good food place in ___?
+                                   </strong>
+                                  </h3>
+                                  <div class="container-fluid">
+                                    
+                                      <strong><h2>Best Foods to eat in Nepal</h2></strong>
+                                      <br>
+                                      <hr class="my-4 border-top-dotted">
+
+                                      
+                                      <div class="row">
+                                        <div class="jumbotron-fluid">
+                                          <p></p>
+                                          <p class="artTopic">Nepal is a country with a rich culinary tradition, and there are many delicious foods that visitors should try during their stay. Here are the top 10 must-try foods in Nepal:</p>
+                                        </div></div><br><hr class="w3-border-red">
+                                        <ol>
+                                          <div class="row">
+                                            <div class="col-sm-8">
+                                         
+  
+                                            <li><strong>Dal Bhat</strong>: This is a traditional Nepali meal 
+                                                made up of rice,
+                                                served with  lentil soup (dal),
+                                                 and vegetables ,meat or both. It is a staple food in
+                                                 Nepal and is often eaten twice a day.</li>
+                                            
+                                          </div>
+                                          <div class="col-sm-4">
+                                            <img src="image.jpg" alt="Image" class="img-fluid">
+                                          </div><br></div>
+                                          <hr class="my-4 border-top-dotted">
+
+                                          <br>
+  
+                                            <div class="row">
+                                                <div class="col-sm-8">
+  
+                                            <li><strong>MO:MO</strong> : These are steamed dumplings 
+                                                filled with meat or vegetables, the most popular beingf the buffalo meat (buff) momo
+                                                 and they are the popular snack in Nepal. 
+                                                 They can be served with a variety of sauces, 
+                                                 including tomato, chili, and sesame chutney.</li>
+                                           
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <img src="dmp.png" alt="Image" class="img-fluid">
+                                          </div><br></div>
+                                          <hr class="my-4 border-top-dotted">
+
+                                          <br>
+  
+  
+                                            <div class="row">
+                                                <div class="col-sm-8">
+                                            <li><strong>Thukpa: </strong> This is a hearty soup made with fresh made noodles and vegetables
+                                                , and it is often served with meat or eggs. 
+                                                It is a popular comfort food in Nepal, particularly in the colder months.
+                                            </li>
+  
+                                           
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg/250px-Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg" alt="Image" class="img12">
+                                          </div><br></div>
+                                          <hr class="my-4 border-top-dotted">
+
+                                          <br>
+                                            <div class="row">
+                                                <div class="col-sm-8">
+  
+  
+                                            <li><strong>Choila:</strong> This is a spicy dish made with grilled or roasted meat,
+                                                 typically buffalo or chicken, 
+                                                and it is often served with flattened rice (chiura). 
+                                                its a neewari food of nepal and its consiodered a lunch food and alsodrinking food.
+                                            </li>
+  
+                                           
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chhwela.jpg/220px-Chhwela.jpg" alt="Image" class="img12">
+                                          </div><br></div>
+                                          <hr class="my-4 border-top-dotted">
+
+                                          <br>
+                                            <div class="row">
+                                                <div class="col-sm-8">
+  
+                                            <li><strong>Samosa:</strong> These are deep-fried pastries filled with vegetables or meat, and they are a popular snack in Nepal. They are often served with chutney or a spicy dipping sauce.</li>
+  
+                                           
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Samosachutney.jpg/280px-Samosachutney.jpg" alt="Image" class="img12">
+                                          </div><br></div>
+                                          <hr class="my-4 border-top-dotted">
+
+                                          <br>
+                                            <div class="row">
+                                                <div class="col-sm-8">
+  
+  
+                                            <li><strong>Sel Roti:</strong> This is a type of fried bread that is made from rice flour and sweetened with sugar or honey. It is a popular treat during festivals and special occasions in Nepal.</li>
+  
+                                           
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DUIPIPA_LHOTELLINE.jpg/240px-DUIPIPA_LHOTELLINE.jpg" alt="Image" class="img12">
+                                          </div><br></div>
+                                          <hr class="my-4 border-top-dotted">
+
+                                          <br>
+                                            <div class="row">
+                                                <div class="col-sm-8">
+  
+                                            <li><strong>Yomari:</strong> This is a sweet dumpling made with rice flour and filled with a mixture of molasses and sesame seeds. It is a popular treat during the festival of Yomari Punhi, which is celebrated in the winter months.</li>
+  
+                                           
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Yomari.jpg/200px-Yomari.jpg" alt="Image" class="img-fluid">
+                                          </div><br></div>
+                                          <hr class="my-4 border-top-dotted">
+
+                                          <br>
+                                            <div class="row">
+                                                <div class="col-sm-8">
+  
+                                            <li><strong>Lamb(khasi ko masu):</strong>Gorkhali Lamb: This is a spicy dish made with lamb, potatoes, and bell peppers, and it is often served with rice or roti. It is a popular choice in Nepal and is named after the Gurkha soldiers who are known for their bravery and strength.</li>
+  
+                                           
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVYxHrVVhprGmWHazQaVKNwoLujdwJvJo5LA&usqp=CAU" alt="Image" class="img-fluid">
+                                          </div><br></div>
+                                          <hr class="my-4 border-top-dotted">
+
+                                          <br>
+                                            <div class="row">
+                                                <div class="col-sm-8">
+  
+                                            <li><strong>Aloo Tama:</strong> This is a spicy soup made with potatoes and bamboo shoots, and it is often served with rice or roti. It is a popular choice in Nepal, particularly in the eastern part of the country.</li>
+  
+                                            
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Aalu_Bodi_Tama_3.jpg/220px-Aalu_Bodi_Tama_3.jpg" alt="Image" class="img-fluid">
+                                          </div><br></div>
+                                          <hr class="my-4 border-top-dotted">
+
+                                          <br>
+                                            <div class="row">
+                                              <div class="col-sm-8">
+  
+                                            <li><strong>Pulao:</strong> This is a rice dish made with a variety of vegetables and spices, and it is often served with meat or vegetables. It is a popular choice in Nepal and is often served during special occasions or celebrations.</li>
+  
+                                          </div>
+                                          <div class="col-sm-4">
+                                              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Afghan_Palo.jpg/280px-Afghan_Palo.jpg" alt="Image" class="img-fluid">
+                                            </div><br>
+                                        </div>
+                                        </ol>
+                                            <hr class="my-4 border-top-dotted">
+
+                                            <br>
+                                            
+                                          
+                                        
+                                       
+                                        
+                                        
+                                        
+                                      </div>
+                                    
+  
+                                  </div>
+                                  
+                                 
+                                 
+                                </div>
+                                <div class="row">
+                                  
+                                </div>
+                              </div>
+            
+            <div class="container"  id="element1" >
+              
+              <article  id="article2" class="container-fluid">
+                <h2 class="expand-trigger">Space Pirate </h2>
+                
+                <div  >  <hr>
+  
+                  <div  class="row">
+                    <div class="col-sm-8" style="padding: 12px;">
+                  <p>
+                  As the sun set on Earth, Alice made her final preparations. She had been planning this moment for months, and now it was finally time to put her plan into action. She couldn't believe she was actually doing it - stealing a prototype spaceship and leaving everything she knew behind. But she had to leave. There was no other choice.
+  
+                  Alice made her way to the spaceport, heart racing with excitement and fear. She knew she had to be careful - if she was caught, it would mean the end of her dreams. She stayed in the shadows, moving quickly and silently. When she reached the spaceship, she took a deep breath and typed in the code she had memorized. The door hissed open, and Alice slipped inside.
+                  </p>
+                
+                
+                  <p>
+                  
+                  As the door closed behind her, Alice couldn't believe she had actually done it. She was in a spaceship, about to embark on a journey that would take her far away from everything she had ever known. She only hoped she was ready for what was to come. With a shaking hand, she powered up the engines and prepared to take off.
+                  
+                  As Alice sat at the controls of the prototype spaceship, she couldn't help but feel a sense of excitement and nervousness. She had never stolen anything before, and the thought of being caught and punished was terrifying. But she had to leave Earth, no matter what the cost.
+                </p>
+                <p>
+                  
+                  "Come on, Alice," she muttered to herself. "You can do this. You've got this."
+                </p>
+              </div><div class="col-sm-4">
+                <img class=" img-fluid" src="g11.png" alt="Image?"  id="img13" >
+                </div><br>
+              </div>
+              <hr class="my-4 border-top-dotted">
+
+  
+              <div  class="row">
+                <div class="col-sm-8" style="padding: 12px;">
+                  <p>
+                  She took a deep breath and activated the near light speed drive, feeling the ship shudder as it accelerated through the void of space. As the stars outside the window became streaks of light, Alice couldn't help but laugh with joy.
+                  <p>
+                  
+                  "This is amazing!" she exclaimed. "I can't believe I'm actually doing this!"
+                  </p>
+                  <p>                                   
+  
+                  
+                  But Alice's joy was short-lived, as a voice crackled over the radio. It was the captain of the spaceship, and he was not pleased.
+                  </p><p>
+                  
+                  "Alice, I know you're out there. You have no idea what you're getting yourself into. Turn that ship around and come back to Earth before it's too late."
+                  </p><p>
+                  
+                  Alice frowned, her excitement turning to determination. She wasn't about to give up on her dream so easily.
+                  
+                  "I'm sorry, captain," she replied, her voice steady. "But I can't do that. I have to leave. I have to see what's out there, no matter the cost."
+                  </p><p>
+                  
+                  "Alice, you don't know what you're talking about," the captain said, his voice laced with frustration. "You have no idea what's waiting for you out there. Turn around now, before it's too late."
+                  </p><p>
+                  
+                  But Alice was determined. She had made her decision, and she was sticking to it. She flipped off the radio and set her course for the nearest wearable planet, leaving the captain's warnings behind. She was going to make her dream a reality, no matter what.
+                  </p>
+                
+                  <p>
+                  As Alice navigated the prototype spaceship through the unknown regions of space, she couldn't help but feel a sense of awe and wonder at the vastness and beauty of the universe. She had always dreamed of exploring the stars, and now she had the opportunity to do so in a way she never could have imagined.
+                  
+                  
+                  As she journeyed on, Alice encountered strange and wonderful new worlds, each one more breathtaking than the last.
+                 </p>
+                </div><div class="col-sm-4">
+                  <img class="img-fluid" src="sp1.png" alt="Image?"  id="img13" >
+                </div><br>
+                  
+  
+              </div>
+              
+  
+               </article><br>
+              
+              
+            </div>
+            
+  
+            
+            
+            
+  
+  
             
            
-             <button class="coolbutt5 ">
-            <span>Buttn 🔘  </span>
-        </button>
-        <button class="coolbutt5 ">
-            <span>Buttn 🔘  </span>
-        </button>
-        <button class="coolbutt5 ">
-            <span>Buttn 🔘  </span>
-        </button>
-        <button class="coolbutt5 ">
-            <span>Buttn 🔘  </span>
-        </button>
-              </div>
-            
-        </nav>
-
-
-
-    </header>
-
-    <main class="content container-fluid main-bod">
-          <article class="art1">
-            <h1 class="head1">
-            Space Pirates
-            </h1> <p>
-                Heres the idea
-            </p>
-            </article>
-            <hr class="bro1">
-        <div class="centering  row">
-            <div class="mint-box centering col-sm-3">
-                <p>
-                <h1>
-                    Title of the card
-                </h1>
-                </p>
-                
-                <p>
-                    Something about the title.
-                </p>
-
-            </div>
-        
-            <div class="mint-box centering col-sm-3 ">
-                
-                <div class="images-in-pages centering card" >
-                    <img src="pp1.png" alt="An image">
-                </div>
-                
-        
-            </div>
-            <div class="mint-box centering col-sm-3 ">
-                <p>
-                <h1 class="">
-                    Title of the card
-                </h1>
-                </p>
-                
-                <p>
-                    Something about the title.
-                </p><button class="coolbutt5">
-            <span>Hover😨 </span>
-        </button>
-            </div>
-        </div>
-        
-         <hr class="bro1">
-        <div class="centering row clearfix">
-            <div class="col-sm-3">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="pp1.png" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">hollow Box</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <button class="coolbutt5">
-            <span>Hover😨 </span>
-        </button>
+          
+                    <div class="container-fluid" id="element4" style="display: none;">
+                      <div class="row">
+                      <div class="col-sm-4" >
+                        <img class="card img-fluid" src="g11.png" alt="Image?"  >
+                      
+                      </div>
+                      <div class="col-sm-4" >
+                        <h3>Something</h3>
+                        <p> Yo</p>
+                      </div>
+                      <div class="col-sm-4" >
+                        <h3>Something old</h3>
+                        <p>  <a class="w3-btn w3-slim foot2 w3-center borderbutt " href="index2.html"> Old Model 0</a>
+                          <a class="w3-btn w3-slim foot2 w3-center borderbutt " href="homer.html"> Old Model 1</a></p>
+                      
+                      </div>
+                      <div class="col-sm-4" >
+                      
+                      
+                      <h5>
+                        Instagram: <a href="https://www.instagram.com/sharal3d/"><button class="danger"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVfruFA8D6ZQmT2yBG9tEEljX_33hgVDyZXwAvsmRlK7x_wt10jt5bRVx5KDRKGe66gI8&amp;usqp=CAU" alt="INStagramicon" id="img13"></button></a>
+                        </h5>
+                      </div>
                     </div>
-                  </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="pp1.png" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">hollow Box</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                  </div>
+
+                  <hr class="my-4 border-top-dotted">
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  
+      </div>
+    </div> 
+
+        <script src="manipulate.js"></script>
+      
+        <footer class="toe jumbotron-fluid mx-auto foo footer">
+            <div class="container-fluid centering">
+             
+             
+                 <span>©sharal3D 😨 <a href="https://www.instagram.com/sharal3d" class="img-fluid"><i class="fa-brands fa-instagram">INSTA</i></a></span>
+             
             </div>
-            <div class="col-sm-3">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="pp1.png" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">hollow Box</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <button class="coolbutt5 insetter">
-            <span>Hover😨 </span>
-        </button>
-                    </div>
-                  </div>
-            </div>
-
-        </div>
+         </footer>
         
-
-    </main>
-   
-
-    <footer class="toe jumbotron-fluid mx-auto foo">
-       <div class="container-fluid centering">
-        
-        <button class="coolbutt5">
-            <span>©Cool? 😨 </span>
-        </button>
-       </div>
-    </footer>
-    
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyBpPefk1SL2WeQ4UehYxnZO1qnKGAP_4Zo",
-    authDomain: "boomba-cabb4.firebaseapp.com",
-    projectId: "boomba-cabb4",
-    storageBucket: "boomba-cabb4.appspot.com",
-    messagingSenderId: "367037796587",
-    appId: "1:367037796587:web:fd9b4e8c11145ba5212eae",
-    measurementId: "G-N376RK4673"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script> 
-
-
-
-</body>
-
+    </body>
 </html>
