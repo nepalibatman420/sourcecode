@@ -3,9 +3,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>DWM - Video Link Extractor SPA</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/w3-css@4.1.0/w3.min.css">
+  <link rel="stylesheet" href="https://w3schools.com">
   <style type="text/css">
-    /* Strict CSS 2.1 for Base Layout & Tabs 1-3 */
     * {
       margin: 0;
       padding: 0;
@@ -92,24 +91,18 @@
       display: block;
     }
 
-    h1 {
+    #view-extractor h1 {
       font-size: 22px;
       margin-bottom: 6px;
       color: #222222;
     }
 
-    h2 {
-      font-size: 18px;
-      margin-bottom: 8px;
-      color: #222222;
-    }
-
-    p {
+    #view-extractor p {
       margin-bottom: 14px;
       color: #555555;
     }
 
-    label {
+    #view-extractor label {
       display: block;
       font-weight: bold;
       margin-bottom: 5px;
@@ -210,42 +203,6 @@
       color: #888888;
     }
 
-    .video-card {
-      float: left;
-      width: 340px;
-      margin-right: 16px;
-      margin-bottom: 18px;
-      border: 1px solid #cccccc;
-      background-color: #fafafa;
-      padding: 6px;
-    }
-
-    .video-card-right {
-      margin-right: 0;
-    }
-
-    .video-card-title {
-      font-size: 13px;
-      font-weight: bold;
-      margin-top: 6px;
-      color: #222222;
-    }
-
-    .blog-post {
-      border-top: 1px solid #dddddd;
-      padding-top: 14px;
-      margin-top: 10px;
-    }
-
-    .blog-list {
-      margin-left: 22px;
-      margin-bottom: 10px;
-    }
-
-    .blog-list li {
-      margin-bottom: 8px;
-    }
-
     #footer {
       width: 720px;
       margin: 0 auto 30px auto;
@@ -254,8 +211,6 @@
       color: #777777;
     }
   </style>
-  <!-- Modern CSS scoped strictly to #view-tools -->
-  <link rel="stylesheet" type="text/css" href="tools.css">
 </head>
 <body>
 
@@ -296,61 +251,101 @@
     </div>
   </div>
 
-  <!-- VIEW 2: Videos (CSS 2.1 + ES3) -->
+  <!-- VIEW 2: Videos (W3.CSS - Variety TV NPL) -->
   <div id="view-videos" class="spa-view">
-    <h1>Featured Videos</h1>
-    <p>Blender 3D and Sci-Fi clips.</p>
+    <div class="w3-container w3-padding-small">
+      <div class="w3-bar w3-margin-bottom">
+        <h2 class="w3-bar-item w3-margin-0 w3-padding-0 w3-text-dark-grey"><b>Variety TV NPL</b></h2>
+        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="w3-button w3-red w3-round w3-small w3-right">
+          <b>Visit @varietytvnpl on YouTube</b>
+        </a>
+      </div>
+      <p class="w3-text-grey">Videos from <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">://youtube.com</a>.</p>
 
-    <div class="video-card">
-      <iframe width="340" height="192" src="https://youtube.com" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-      <div class="video-card-title">Something Alien Again</div>
+      <div class="w3-card-2 w3-light-grey w3-padding-small w3-margin-bottom">
+        <iframe
+          style="width:100%; height:360px; border:0;"
+          src="https://youtube.com"
+          allowfullscreen="allowfullscreen">
+        </iframe>
+        <div class="w3-container w3-padding-small">
+          <b>@varietytvnpl Latest Uploads</b>
+        </div>
+      </div>
+
+      <div class="w3-row-padding" style="margin: 0 -16px;">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-card-2 w3-light-grey w3-padding-small">
+            <iframe style="width:100%; height:190px; border:0;" src="https://youtube.com" allowfullscreen="allowfullscreen"></iframe>
+            <div class="w3-container w3-padding-small">
+              <b>Variety TV NPL - Video 1</b>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-card-2 w3-light-grey w3-padding-small">
+            <iframe style="width:100%; height:190px; border:0;" src="https://youtube.com" allowfullscreen="allowfullscreen"></iframe>
+            <div class="w3-container w3-padding-small">
+              <b>Variety TV NPL - Video 2</b>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="video-card video-card-right">
-      <iframe width="340" height="192" src="https://youtube.com" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-      <div class="video-card-title">Backrooms Found Footage Space Escape</div>
-    </div>
-
-    <div class="clear"></div>
-
-    <div class="video-card">
-      <iframe width="340" height="192" src="https://youtube.com" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-      <div class="video-card-title">Sci-Fi HULL 24 fps</div>
-    </div>
-
-    <div class="video-card video-card-right">
-      <iframe width="340" height="192" src="https://youtube.com" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-      <div class="video-card-title">Zanpakuto</div>
-    </div>
-
-    <div class="clear"></div>
   </div>
 
-  <!-- VIEW 3: Blog (CSS 2.1 + ES3) -->
+  <!-- VIEW 3: Blog (W3.CSS) -->
   <div id="view-blog" class="spa-view">
-    <h1>Best Foods to Eat in Nepal</h1>
-    <p>Nepal is a country with a rich culinary tradition, and there are many delicious foods that visitors should try during their stay.</p>
+    <div class="w3-container">
+      <div class="w3-panel w3-leftbar w3-border-green w3-light-grey w3-padding">
+        <h2 class="w3-margin-top-0"><b>Best Foods to Eat in Nepal</b></h2>
+        <p class="w3-text-dark-grey">Nepal is a country with a rich culinary tradition, and there are many delicious foods that visitors should try during their stay.</p>
+      </div>
 
-    <div class="blog-post">
-      <h2>Top Must-Try Dishes</h2>
-      <ol class="blog-list">
-        <li><strong>Dal Bhat:</strong> Traditional Nepali meal made up of steamed rice, served with lentil soup (dal), curried vegetables, pickles, and meat.</li>
-        <li><strong>Momo:</strong> Steamed or fried dumplings filled with spiced minced meat or vegetables, served with spicy tomato-sesame chutney.</li>
-        <li><strong>Sel Roti:</strong> Traditional homemade, ring-shaped sweet rice bread prepared during major festivals.</li>
-      </ol>
+      <div class="w3-card-2 w3-white w3-padding">
+        <h4><b>Top Must-Try Dishes</b></h4>
+        <ul class="w3-ul w3-border-top">
+          <li class="w3-padding-16">
+            <span class="w3-tag w3-green w3-round w3-margin-right">1</span>
+            <b>Dal Bhat:</b> Traditional Nepali meal made up of steamed rice, served with lentil soup (dal), curried vegetables, pickles, and meat.
+          </li>
+          <li class="w3-padding-16">
+            <span class="w3-tag w3-green w3-round w3-margin-right">2</span>
+            <b>Momo:</b> Steamed or fried dumplings filled with spiced minced meat or vegetables, served with spicy tomato-sesame chutney.
+          </li>
+          <li class="w3-padding-16">
+            <span class="w3-tag w3-green w3-round w3-margin-right">3</span>
+            <b>Sel Roti:</b> Traditional homemade, ring-shaped sweet rice bread prepared during major festivals.
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 
-  <!-- VIEW 4: Modern CSS + Modern JS Only -->
+  <!-- VIEW 4: Tools (W3.CSS + Vanilla JS) -->
   <div id="view-tools" class="spa-view">
-    <div id="custom-tool-container">
+    <div class="w3-container">
+      <div class="w3-panel w3-dark-grey w3-padding-16 w3-round">
+        <h3 class="w3-margin-0"><b>Website Video Link Extractor</b></h3>
+        <p class="w3-small w3-text-light-grey w3-margin-0">Enter a webpage URL or direct video link below and click Go.</p>
+      </div>
 
-<div>
-<input type="url" id="user-input" placeholder="https://example.com">
-  <button type="button" id="go-btn">Go</button>
-</div>
+      <div class="w3-card-2 w3-light-grey w3-padding">
+        <label class="w3-text-dark-grey"><b>Website URL</b></label>
+        <div class="w3-row-padding" style="margin: 8px -8px;">
+          <div class="w3-threequarter">
+            <input type="url" id="user-input" class="w3-input w3-border w3-round" placeholder="https://example.com">
+          </div>
+          <div class="w3-quarter">
+            <button type="button" id="go-btn" class="w3-button w3-green w3-round w3-block"><b>Go</b></button>
+          </div>
+        </div>
 
-</div>
+        <p id="tools-status" class="w3-small w3-text-dark-grey"></p>
+        <div id="tools-results"></div>
+      </div>
+    </div>
   </div>
 
 </div>
@@ -362,4 +357,5 @@
 <script type="text/javascript" src="app.js"></script>
 <script type="text/javascript" src="tools.js"></script>
 </body>
+
 </html>
